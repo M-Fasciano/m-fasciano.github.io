@@ -3,7 +3,7 @@ module.exports = {
     title: `Michele Fasciano | Portfolio`,
     description: `Frontend web developer based in London with passion for responsive websites.`,
     author: `@webmf`,
-    image: `./src/images/meta-image.jpg`,
+    image: `./src/images/meta-image-new.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

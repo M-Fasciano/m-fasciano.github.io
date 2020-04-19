@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import metaImg from '../../images/meta-image.jpg'
+import metaImg from '../../images/meta-image-new.jpg'
 import favicon from '../../images/favicon.ico'
 
 const SEO = () => {
