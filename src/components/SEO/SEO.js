@@ -16,7 +16,7 @@ const SEO = () => {
       <title>Michele Fasciano | Portfolio</title>
 
       {/* Open Graph tags */}
-      <meta property="og:url" content="https://m-fasciano.github.io/portfolio/" />
+      <meta property="og:url" content="https://m-fasciano.github.io" />
       <meta property="og:type" content="webiste" />
       <meta property="og:title" content="Michele Fasciano | Portfolio" />
       <meta property="og:description" content="Frontend web developer based in London with passion for responsive websites." />
@@ -26,7 +26,7 @@ const SEO = () => {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@webmf" />
       <meta name="twitter:creator" content="@webmf" />
-      <meta property="og:url" content="https://m-fasciano.github.io/portfolio/" />
+      <meta property="og:url" content="https://m-fasciano.github.io" />
       <meta property="og:title" content="Michele Fasciano | Portfolio" />
       <meta property="og:description" content="Frontend web developer based in London with passion for responsive websites." />
       <meta property="og:image" content={metaImg} />
