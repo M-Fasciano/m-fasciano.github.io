@@ -1,0 +1,99 @@
+.shape {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+
+  &--1 {
+    left: 5%;
+    top: 5%;
+  }
+
+  &--2 {
+    left: 2.5%;
+    top: 15%;
+    height: 45px;
+    width: 45px;
+  }
+
+  &--3 {
+    right: 30%;
+    top: 3.5%;
+  }
+
+  &--4 {
+    left: 7.5%;
+    top: 25%;
+  }
+
+  &--5 {
+    right: 5%;
+    top: 2.5%;
+    height: 45px;
+    width: 45px;
+  }
+
+  &--6 {
+    right: 20%;
+    top: 35%;
+  }
+
+  &--7 {
+    right: 5.5%;
+    top: 12.5%;
+  }
+
+  &--8 {
+    right: 8.5%;
+    top: 20%;
+    height: 45px;
+    width: 45px;
+  }
+
+  &--9 {
+    left: 2.5%;
+    bottom: 5%;
+    height: 45px;
+    width: 45px;
+  }
+
+  &--10 {
+    right: 7%;
+    bottom: 15%;
+    height: 40px;
+    width: 40px;
+  }
+
+  &--11 {
+    left: 4.5%;
+    top: 45%;
+  }
+
+  &--12 {
+    left: 5%;
+    bottom: 25%;
+    height: 45px;
+    width: 45px;
+  }
+
+  &--13 {
+    right: 5%;
+    bottom: 22.5%;
+  }
+
+  &--14 {
+    left: 7%;
+    bottom: 10%;
+  }
+
+  &--15 {
+    right: 10%;
+    bottom: 40%;
+    height: 40px;
+    width: 40px;
+  }
+
+  &--16 {
+    right: 35%;
+    bottom: 35%;
+  }
+}
