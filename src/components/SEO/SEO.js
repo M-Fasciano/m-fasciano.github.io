@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import metaImg from '../../images/meta-image-new.jpg'
+import metaImg from '../../images/meta-image.jpg'
 import favicon from '../../images/favicon.ico'
 
 const SEO = () => {
@@ -32,6 +32,7 @@ const SEO = () => {
       <meta property="og:image" content={`${metaImg}`} />
 
       <link rel="shortcut icon" href={favicon} />
+      <link rel="canonical" href="https://m-fasciano.github.io" />
     </Helmet>
   )
 }
