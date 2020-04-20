@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import colours from '../../styles/export/colours.scss'
+import { colours } from '../Global/Variables'
 import { device } from '../Global/Breakpoints'
-
+ 
 // PROJECTS
 export const Section = styled.section`
   background-color: ${colours.aquamarine};
@@ -146,125 +146,5 @@ export const Container = styled.div`
 
   @media ${device.laptop} {
     display: block;
-  }
-`
-
-export const shape = styled.svg `
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: absolute;
-  height: 30px;
-  width: 30px;
-
-  &--1 {
-    background-image: url("../../components/Projects/images/circle.svg");
-    left: 5%;
-    top: 5%;
-  }
-
-  &--2 {
-    background-image: url("../../components/Projects/images/pentagon.svg");
-    left: 2.5%;
-    top: 15%;
-    height: 25px;
-    width: 25px;
-  }
-
-  &--3 {
-    background-image: url("../../components/Projects/images/square.svg");
-    right: 30%;
-    top: 3.5%;
-  }
-
-  &--4 {
-    background-image: url("../../components/Projects/images/triangle.svg");
-    left: 7.5%;
-    top: 25%;
-  }
-
-  &--5 {
-    background-image: url("../../components/Projects/images/circle.svg");
-    right: 5%;
-    top: 2.5%;
-    height: 25px;
-    width: 25px;
-  }
-
-  &--6 {
-    background-image: url("../../components/Projects/images/pentagon.svg");
-    right: 20%;
-    top: 35%;
-  }
-
-  &--7 {
-    background-image: url("../../components/Projects/images/square.svg");
-    right: 5.5%;
-    top: 12.5%;
-    height: 20px;
-    width: 20px;
-  }
-
-  &--8 {
-    background-image: url("../../components/Projects/images/triangle.svg");
-    right: 8.5%;
-    top: 20%;
-    height: 25px;
-    width: 25px;
-  }
-
-  &--9 {
-    background-image: url("../../components/Projects/images/circle.svg");
-    left: 2.5%;
-    bottom: 0%;
-    height: 25px;
-    width: 25px;
-  }
-
-  &--10 {
-    background-image: url("../../components/Projects/images/pentagon.svg");
-    right: 7%;
-    bottom: 10%;
-    height: 20px;
-    width: 20px;
-  }
-
-  &--11 {
-    background-image: url("../../components/Projects/images/square.svg");
-    left: 4.5%;
-    top: 45%;
-  }
-
-  &--12 {
-    background-image: url("../../components/Projects/images/triangle.svg");
-    left: 5%;
-    bottom: 25%;
-    height: 25px;
-    width: 25px;
-  }
-
-  &--13 {
-    background-image: url("../../components/Projects/images/circle.svg");
-    right: 5%;
-    bottom: 15%;
-  }
-
-  &--14 {
-    background-image: url("../../components/Projects/images/pentagon.svg");
-    left: 7%;
-    bottom: 7%;
-  }
-
-  &--15 {
-    background-image: url("../../components/Projects/images/square.svg");
-    right: 10%;
-    bottom: 40%;
-    height: 20px;
-    width: 20px;
-  }
-
-  &--16 {
-    background-image: url("../../components/Projects/images/triangle.svg");
-    right: 35%;
-    bottom: 30%;
   }
 `

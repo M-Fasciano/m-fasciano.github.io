@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import colours from '../../styles/export/colours.scss'
+import { colours } from '../Global/Variables'
 import { device } from '../Global/Breakpoints'
 
 // TIMELINE
