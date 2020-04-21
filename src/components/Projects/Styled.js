@@ -33,7 +33,7 @@ export const H2 = styled.h2`
 export const ParentDiv = styled.div`
   display: flex;
   flex-direction: column;
-  padding-bottom: 4rem;
+  margin-bottom: 4rem;
   position: relative;
 
   li {
