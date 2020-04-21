@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet'
 import metaImg from '../../images/meta-image.jpg'
 import favicon from '../../images/favicon.ico'
 
+const siteUrl = "https://m-fasciano.github.io"
+
 const SEO = () => {
   return (
     <Helmet>
@@ -20,7 +22,7 @@ const SEO = () => {
       <meta property="og:type" content="webiste" />
       <meta property="og:title" content="Michele Fasciano | Portfolio" />
       <meta property="og:description" content="Frontend web developer based in London with passion for responsive websites." />
-      <meta property="og:image" content={`${metaImg}`} />
+      <meta property="og:image" content={`${siteUrl}${metaImg}`} />
 
       {/* Twitter tags */}
       <meta name="twitter:card" content="summary" />
@@ -29,7 +31,7 @@ const SEO = () => {
       <meta property="og:url" content="https://m-fasciano.github.io" />
       <meta property="og:title" content="Michele Fasciano | Portfolio" />
       <meta property="og:description" content="Frontend web developer based in London with passion for responsive websites." />
-      <meta property="og:image" content={`${metaImg}`} />
+      <meta property="og:image" content={`${siteUrl}${metaImg}`} />
 
       <link rel="shortcut icon" href={favicon} />
       <link rel="canonical" href="https://m-fasciano.github.io" />
