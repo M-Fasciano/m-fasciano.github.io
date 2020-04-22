@@ -43,7 +43,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: 'Major Mono Display',
+          families: ['Major Mono Display'],
         }
       }
     },
