@@ -22,6 +22,7 @@
     "gatsby-plugin-sass": "^2.2.3",
     "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-plugin-styled-components": "^3.2.3",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-sharp": "^2.4.3",
     "gh-pages": "^2.2.0",
@@ -38,6 +39,7 @@
     "typeface-major-mono-display": "0.0.71"
   },
   "devDependencies": {
+    "gatsby-disable-404": "^0.2.1",
     "prettier": "2.0.4"
   },
   "keywords": [

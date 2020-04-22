@@ -18,6 +18,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-disable-404`,
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
@@ -37,6 +38,14 @@ module.exports = {
           include: /svgs/
         },
       },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: 'Major Mono Display',
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
