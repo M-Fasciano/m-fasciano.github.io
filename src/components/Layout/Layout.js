@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/core.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -8,7 +9,6 @@ import Header from '../Header/Header'
 import Content from '../Content/Content'
 import Footer from '../Footer/Footer'
 
-import '../../styles/core.scss'
 
 library.add(fab)
 
