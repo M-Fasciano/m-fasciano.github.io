@@ -29,7 +29,7 @@ export const H2 = styled.h2`
   }
 `
 
-export const List = styled.ul`
+export const List = styled.div`
   padding: 5rem 2rem 3rem 3.5rem;
   position: relative;
 
@@ -101,7 +101,7 @@ export const DivTimelineLine = styled.div`
 `
 
 // TIMELINE ITEM
-export const ListItem = styled.li`
+export const ListItem = styled.div`
   margin-bottom: 2rem;
   position: relative;
   filter: drop-shadow(0 2px 0 rgba(0,0,0, .1));
