@@ -54,12 +54,9 @@ export const ParentDiv = styled.div`
 `
 
 export const ChildDiv = styled.div`
-  background-image: url(${props => props.img});
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 200px;
+  padding-bottom: 56.25%;
   position: relative;
+  overflow: hidden;
   
   &:after {
     background-color: rgba(0,0,0, 0.7);
@@ -69,25 +66,20 @@ export const ChildDiv = styled.div`
     top: 0;
     height: 100%;
     width: 100%;
-  }
-
-  @media ${device.laptopL} {
-    min-height: 300px;
-  }
+  }  
 `
 
 export const ChildInnerDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 200px;
+  left: 0;
+  height: 100%;
   padding: 1rem;
-  position: relative;
+  position: absolute;
+  top: 0;
+  width: 100%;
   z-index: 1;
-
-  @media ${device.laptopL} {
-    min-height: 300px;
-  }
 
   @media ${device.laptopL} {
     padding: 2rem;
@@ -103,6 +95,14 @@ export const ChildInnerDiv = styled.div`
       font-size: 2rem;
     }
   }
+`
+
+export const Picture = styled.picture`
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 `
 
 export const P = styled.p`

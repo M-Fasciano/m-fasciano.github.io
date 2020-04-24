@@ -9,10 +9,12 @@ const ProjectsList = props => {
     <>
       {props.projects.map(project => (
         <Styled.ParentDiv key={project.id}>
-          <Styled.ChildDiv 
-            id={project.id} 
-            img={project.src}
-          >
+          <Styled.ChildDiv>
+            <Styled.Picture>
+              <source type="image/webp" srcSet={project.srcWebp} />
+              <source type="image/jpeg" srcSet={project.src} />
+              <img src={project.src} alt={project.alt} style={{width: '100%'}} />
+            </Styled.Picture>
             <Styled.ChildInnerDiv>
               <h2>{project.title}</h2>
             </Styled.ChildInnerDiv>
