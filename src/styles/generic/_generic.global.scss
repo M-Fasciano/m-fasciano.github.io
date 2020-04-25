@@ -1,6 +1,11 @@
+// @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
 @font-face {
   font-family: "Major Mono Display";
-  src: url("../fonts/MajorMonoDisplay-Regular.ttf") format("ttf");
+  src: local("Major Mono Display"), local("Major-Mono-Display"),
+    url("../fonts/MajorMonoDisplay-Regular.ttf") format("ttf"),
+    url("../fonts/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRh7DXeRAHRfwg.woff2")
+      format("woff2");
   font-display: swap;
 }
 

@@ -35,6 +35,7 @@ const SEO = () => {
 
       <link rel="shortcut icon" href={favicon} />
       <link rel="canonical" href="https://m-fasciano.github.io" />
+      <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet" />
     </Helmet>
   )
 }
