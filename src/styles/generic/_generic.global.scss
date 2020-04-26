@@ -24,7 +24,10 @@
       url("../fonts/major-mono-display-v4-latin-regular.ttf") format("truetype"),
     /* Safari, Android, iOS */
       url("../fonts/major-mono-display-v4-latin-regular.svg#MajorMonoDisplay")
-      format("svg"); /* Legacy iOS */
+      format("svg"),
+    /* Legacy iOS */
+      url("https://fonts.gstatic.com/s/majormonodisplay/v4/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRh7DXeRAHRfwg.woff2")
+      format("woff2");
   font-display: swap;
 }
 

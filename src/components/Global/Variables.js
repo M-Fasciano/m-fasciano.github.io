@@ -3,6 +3,6 @@ export const colours = {
   black: '#000000',
   lightGrey: '#e3e3e3',
   mediumGrey: '#afafaf',
-  grey: '#555555',
+  grey: '#444444',
   aquamarine: 'aquamarine',
 }
