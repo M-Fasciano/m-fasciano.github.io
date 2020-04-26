@@ -4,7 +4,8 @@ import { device } from '../Global/Breakpoints'
 
 // TIMELINE
 export const Section = styled.section`
-  background: linear-gradient(-45deg, rgb(178, 219, 191) 0%, rgb(36, 123, 160) 100%);
+  background-color: deepskyblue;
+  overflow-x: hidden;
   padding: 4rem 0;
 `
 
@@ -39,15 +40,15 @@ export const List = styled.div`
 
   &:before,
   &:after {
-    font-size: 1.25rem;
-    position: absolute;
-    left: 55px;
-    z-index: 10;
+    color: ${colours.black};
     content: '';
     display: block;
+    font-size: 1.25rem;
+    left: 55px;
     line-height: normal;
+    position: absolute;
     width: auto;
-    color: ${colours.black};
+    z-index: 10;
   }
 
   &:before {
@@ -62,16 +63,16 @@ export const List = styled.div`
 `
 
 export const DivTimelineLine = styled.div`
-  margin: 0 0 0 -2px;
+  background-color: ${colours.black};
+  bottom: 0;
+  height: 100%;
+  margin-left: 1rem;
   padding: 0;
   position: absolute;
-  top: 0;
   left: 9px;
-  z-index: 1;
+  top: 0;
   width: 4px;
-  height: 100%;
-  background: ${colours.black};
-  margin-left: 1rem;
+  z-index: 1;
 
   @media ${device.tablet} {
     left: -3px;
@@ -79,24 +80,24 @@ export const DivTimelineLine = styled.div`
 
   &:after,
   &:before {
-    height: 18px;
-    width: 18px;
-    position: absolute;
-    z-index: 1;
-    content: "";
+    background-color: ${colours.black};
     border: 4px solid ${colours.black};
     border-radius: 50%;
-    background: ${colours.black};
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    z-index: 1;
   }
 
   &:before {
-    top: 0;
     left: -7px;
+    top: 0;
   }
 
   &:after {
-    top: calc(100% - 18px);
     left: -7px;
+    bottom: 0;
   }
 `
 
@@ -108,16 +109,16 @@ export const ListItem = styled.div`
   z-index: 2;
 
   &:before {
-    content: '';
-    height: 18px;
-    width: 18px;
-    position: absolute;
-    top: 21px;
-    right: calc(100% + 1.25rem);
-    z-index: 5;
+    background-color: ${colours.white};
     border: 4px solid ${colours.black};
     border-radius: 50%;
-    background: ${colours.white};
+    content: '';
+    height: 18px;
+    position: absolute;
+    right: calc(100% + 1.25rem);
+    top: 21px;
+    width: 18px;
+    z-index: 5;
   }
 `
 
@@ -142,14 +143,14 @@ export const ListItemInner = styled.div`
   }
 
   &:after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    right: 100%;
-    height: 0;
-    width: 0;
     border: 10px solid transparent;
     border-right: 10px solid ${colours.white};
+    content: '';
+    height: 0;
+    position: absolute;
+    right: 100%;
+    top: 20px;
+    width: 0;
   }
 
   h2,

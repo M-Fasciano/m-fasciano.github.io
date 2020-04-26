@@ -20,7 +20,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-disable-404`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -4,7 +4,7 @@ import { device } from '../Global/Breakpoints'
  
 // PROJECTS
 export const Section = styled.section`
-  background-color: ${colours.aquamarine};
+  // background-color: ${colours.aquamarine};
   padding: 4rem 2rem 0;
   position: relative;
 
@@ -46,7 +46,7 @@ export const ParentDiv = styled.div`
     }
 
     &:after {
-      color: ${colours.mediumGrey};
+      color: ${colours.black};
       content: '•';
       padding: 0 .5rem;
     }
@@ -119,8 +119,9 @@ export const P = styled.p`
     color: ${colours.black};
     font-weight: bold;
     margin-left: 0.5rem;
-    text-decoration: none;
     position: relative;
+    text-decoration: none;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 15;
     
     span {
@@ -128,8 +129,8 @@ export const P = styled.p`
     }
 
     &:hover {
-      color: ${colours.mediumGrey};
-      transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1);
+      color: ${colours.white};
+      transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 `

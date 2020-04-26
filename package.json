@@ -42,7 +42,6 @@
     "typeface-major-mono-display": "0.0.71"
   },
   "devDependencies": {
-    "gatsby-disable-404": "^0.2.1",
     "prettier": "2.0.4"
   },
   "keywords": [
