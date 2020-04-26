@@ -47,10 +47,6 @@ self.__precacheManifest = [
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-0eefb2092d535e2a0e88.js"
-  },
-  {
-    "url": "manifest.webmanifest",
-    "revision": "3b38ec305d9ad8d6bdd8223a5e044646"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
