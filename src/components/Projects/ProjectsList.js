@@ -1,20 +1,35 @@
 import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import * as Styled from './Styled'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 const ProjectsList = props => {
+  const data = useStaticQuery(graphql`
+    query imageQuery {
+      source: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
+        edges {
+          node {
+            childImageSharp {
+              fluid(maxWidth: 720) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <>
-      {props.projects.map(project => (
+      {props.projects.map((project, index) => (
         <Styled.ParentDiv key={project.id}>
           <Styled.ChildDiv>
-            <Styled.Picture>
-              <source type="image/webp" srcSet={project.srcWebp} />
-              <source type="image/jpeg" srcSet={project.src} />
-              <img src={project.src} alt={project.alt} style={{width: '100%'}} />
-            </Styled.Picture>
+            { console.log(data.source.edges) }
+            <Img key={index} fluid={data.source.edges[index].node.childImageSharp.fluid} />
             <Styled.ChildInnerDiv>
               <h2>{project.title}</h2>
             </Styled.ChildInnerDiv>
