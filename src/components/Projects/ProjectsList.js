@@ -13,7 +13,7 @@ const ProjectsList = props => {
         edges {
           node {
             childImageSharp {
-              fluid(maxWidth: 720) {
+              fluid(maxWidth: 1000) {
                 ...GatsbyImageSharpFluid
               }
             }
