@@ -13,8 +13,8 @@ const ProjectsList = props => {
         edges {
           node {
             childImageSharp {
-              fluid(maxWidth: 1000) {
-                ...GatsbyImageSharpFluid
+              fluid(maxWidth: 720) {
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -28,7 +28,6 @@ const ProjectsList = props => {
       {props.projects.map((project, index) => (
         <Styled.ParentDiv key={project.id}>
           <Styled.ChildDiv>
-            { console.log(data.source.edges) }
             <Img key={index} fluid={data.source.edges[index].node.childImageSharp.fluid} />
             <Styled.ChildInnerDiv>
               <h2>{project.title}</h2>
