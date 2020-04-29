@@ -4,7 +4,6 @@ import { device } from '../Global/Breakpoints'
  
 // PROJECTS
 export const Section = styled.section`
-  // background-color: ${colours.aquamarine};
   padding: 4rem 2rem 0;
   position: relative;
 
