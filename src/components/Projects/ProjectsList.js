@@ -28,7 +28,7 @@ const ProjectsList = props => {
       {props.projects.map((project, index) => (
         <Styled.ParentDiv key={project.id}>
           <Styled.ChildDiv>
-            <Img key={index} fluid={data.source.edges[index].node.childImageSharp.fluid} />
+            <Img key={index} fluid={data.source.edges[index].node.childImageSharp.fluid} alt={project.alt} />
             <Styled.ChildInnerDiv>
               <h2>{project.title}</h2>
             </Styled.ChildInnerDiv>
