@@ -4,7 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `Michele Fasciano | Portfolio`,
     description: `Frontend web developer based in London with passion for responsive websites.`,
-    author: `@webmf`,
+    siteUrl: `http://m-fasciano.github.io/`,
+    author: `@m-fasciano`,
     image: `./src/images/meta-image.jpg`,
   },
   plugins: [
@@ -44,6 +45,7 @@ module.exports = {
         lang: 'en'
       }
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
