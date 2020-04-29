@@ -5,11 +5,11 @@
  */
 
 // You can delete this file if you're not using it
-const rimraf = require('rimraf');
+// const rimraf = require('rimraf');
 
-const PUBLIC_FOLDER = `${__dirname}/public`;
+// const PUBLIC_FOLDER = `${__dirname}/public`;
 
-exports.onPreBuild = () => {
-  // empty /public folder
-  rimraf.sync(PUBLIC_FOLDER + '/*');
-};
+// exports.onPreBuild = () => {
+//   // empty /public folder
+//   rimraf.sync(PUBLIC_FOLDER + '/*');
+// };
