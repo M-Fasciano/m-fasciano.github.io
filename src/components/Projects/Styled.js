@@ -54,7 +54,6 @@ export const ParentDiv = styled.div`
 `
 
 export const ChildDiv = styled.div`
-  // padding-bottom: 56.25%;
   position: relative;
   overflow: hidden;
   

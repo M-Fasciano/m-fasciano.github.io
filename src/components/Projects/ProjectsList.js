@@ -9,7 +9,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 const ProjectsList = props => {
   const data = useStaticQuery(graphql`
     query imageQuery {
-      source: allFile(filter: { absolutePath: { regex: "/images/projects/" } }) {
+      source: allFile(filter: { absolutePath: { regex: "/images/projects/" } }, sort: {fields: name}) {
         edges {
           node {
             childImageSharp {
