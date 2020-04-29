@@ -30,14 +30,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /svgs/
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
