@@ -26,7 +26,6 @@
     "gatsby-plugin-sass": "^2.2.3",
     "gatsby-plugin-sharp": "^2.5.3",
     "gatsby-plugin-styled-components": "^3.2.3",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-sharp": "^2.4.3",
     "gh-pages": "^2.2.0",
@@ -41,7 +40,6 @@
     "react-spring": "^8.0.27",
     "styled-components": "^5.1.0",
     "tsparticles": "^1.13.0",
-    "typeface-major-mono-display": "0.0.71",
     "typescript": "^3.8.3",
     "utf-8-validate": "^5.0.2"
   },

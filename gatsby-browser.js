@@ -16,4 +16,3 @@ export const onClientEntry = async () => {
 
 
 require('./src/images/favicon.ico')
-require('typeface-major-mono-display')

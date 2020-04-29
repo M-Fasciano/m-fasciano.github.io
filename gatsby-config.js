@@ -41,14 +41,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Major Mono Display'],
-        }
-      }
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-149866002-1",
