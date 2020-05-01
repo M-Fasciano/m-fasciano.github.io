@@ -38,7 +38,6 @@
     "react-helmet": "^6.0.0",
     "react-intersection-observer": "^8.26.1",
     "react-particles-js": "^3.1.0",
-    "react-spring": "^8.0.27",
     "styled-components": "^5.1.0",
     "tsparticles": "^1.13.0",
     "typescript": "^3.8.3",

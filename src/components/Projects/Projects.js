@@ -3,7 +3,6 @@ import * as Styled from './Styled'
 
 import projects from '../../mocks/projects'
 import ProjectsList from './ProjectsList'
-// import ProjectsShapes from './ProjectsShapes'
 
 class Projects extends React.Component {
   constructor() {
@@ -20,7 +19,6 @@ class Projects extends React.Component {
           <Styled.H2>Recent projects</Styled.H2>
           <ProjectsList projects={this.state.projects} />
         </Styled.SectionInner>
-        {/* <ProjectsShapes /> */}
       </Styled.Section>
     )
   }
