@@ -31,7 +31,6 @@
     "gatsby-transformer-sharp": "^2.4.3",
     "gh-pages": "^2.2.0",
     "intersection-observer": "^0.9.0",
-    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -44,7 +43,8 @@
     "utf-8-validate": "^5.0.2"
   },
   "devDependencies": {
-    "prettier": "2.0.4"
+    "prettier": "2.0.4",
+    "sass": "^1.52.1"
   },
   "keywords": [
     "gatsby"

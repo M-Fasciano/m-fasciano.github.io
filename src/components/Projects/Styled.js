@@ -1,7 +1,7 @@
-import styled from 'styled-components'
-import { colours } from '../Global/Variables'
-import { device } from '../Global/Breakpoints'
- 
+import styled from "styled-components"
+import { colours } from "../Global/Variables"
+import { device } from "../Global/Breakpoints"
+
 // PROJECTS
 export const Section = styled.section`
   padding: 4rem 2rem 0;
@@ -41,13 +41,13 @@ export const ParentDiv = styled.div`
     font-size: 0.875rem;
 
     &:last-child:after {
-      content: '';
+      content: "";
     }
 
     &:after {
       color: ${colours.black};
-      content: '•';
-      padding: 0 .5rem;
+      content: "•";
+      padding: 0 0.5rem;
     }
   }
 `
@@ -55,16 +55,6 @@ export const ParentDiv = styled.div`
 export const ChildDiv = styled.div`
   position: relative;
   overflow: hidden;
-  
-  &:after {
-    background-color: rgba(0,0,0, 0.7);
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-  }  
 `
 
 export const ChildInnerDiv = styled.div`
@@ -115,13 +105,20 @@ export const P = styled.p`
 
   a {
     color: ${colours.black};
+    display: block;
     font-weight: bold;
-    margin-left: 0.5rem;
+    margin-top: 0.5rem;
     position: relative;
     text-decoration: none;
     transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 15;
-    
+
+    @media ${device.laptopL} {
+      display: inline-block;
+      margin-left: 0.5rem;
+      margin-top: 0;
+    }
+
     span {
       margin-right: 7px;
     }

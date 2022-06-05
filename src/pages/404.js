@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/core.scss'
+// import '../styles/core.scss'
 
 import Layout from "../components/Layout/Layout"
 
