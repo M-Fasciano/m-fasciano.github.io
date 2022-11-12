@@ -3,7 +3,7 @@ const data = [
     id: 1,
     title: "Front-end web developer",
     company: "Collective London",
-    date: "Jul 2017 - Present",
+    date: "Jul 2017 - Oct 2022",
     desc:
       "Developing front-end functionality for new clients' projects like MG UK, Vitra London, Equiom group & Hyundai Life. Responsibilities include maintaining code of current projects and helping scope future projects, contributing with time estimates. Working closely with the back-end team to produce high standard code following best practices.",
   },
