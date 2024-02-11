@@ -40,19 +40,6 @@ const projects = [
   },
   {
     id: 4,
-    title: "Hyundai Life",
-    alt: "Hyundai life project",
-    desc: "Website development for Hyundai Life",
-    link: "https://blog.hyundai.co.uk/",
-    technologies: {
-      html: "HTML5",
-      js: "ES6",
-      css: "BEMIT / SCSS",
-      tool: "Gulp",
-    },
-  },
-  {
-    id: 5,
     title: "Wolverhampton Wanderers F.C.",
     alt: "Wolverhampton Wanderers F.C. project",
     desc: "Website development for Wolverhampton Wanderers F.C.",
