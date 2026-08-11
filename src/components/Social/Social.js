@@ -37,12 +37,12 @@ const Social = () => {
       </li>
       <li>
         <a
-          href="https://twitter.com/webmf"
+          href="https://x.com/webmf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Twitter
-          <FontAwesomeIcon icon={['fab', 'twitter']} />
+          X
+          <FontAwesomeIcon icon={['fab', 'x-twitter']} />
         </a>
       </li>
       <li>

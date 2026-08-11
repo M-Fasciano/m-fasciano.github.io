@@ -48,10 +48,9 @@ const ProjectsList = props => {
             <strong>Technologies:</strong>
           </Styled.P>
           <ul>
-            <li>{project.technologies.html}</li>
-            <li>{project.technologies.js}</li>
-            <li>{project.technologies.css}</li>
-            <li>{project.technologies.tool}</li>
+            {project.technologies.map(tech => (
+              <li key={tech}>{tech}</li>
+            ))}
           </ul>
         </Styled.ParentDiv>
       ))}
