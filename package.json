@@ -53,9 +53,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "develop": "gatsby develop",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider gatsby build && gh-pages -d public -b master",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
